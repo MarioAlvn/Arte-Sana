@@ -1,0 +1,33 @@
+# Título del sitio
+title: Dulce Tentación
+
+# Descripción del sitio
+description: Heladería y Pastelería Artesanal
+
+# URL base del sitio (usando GitHub Pages)
+baseurl: "" # Deja esto vacío si estás en la raíz del repositorio
+url: "https://tu-usuario.github.io/heladeria-web" # Reemplaza con tu URL
+
+# Configuración del tema (opcional)
+theme: jekyll-theme-minimal # Puedes cambiar el tema si lo deseas
+
+# Configuración de marcado
+markdown: kramdown
+highlighter: rouge
+
+# Plugins (opcional)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configuración de SEO (opcional)
+seo:
+  title: Dulce Tentación - Heladería y Pastelería
+  description: Los mejores helados y pasteles artesanales.
+
+# Configuración personalizada
+heladeria:
+  nombre: Dulce Tentación
+  direccion: Calle Principal #123, Ciudad
+  telefono: +123 456 7890
+  horario: Lunes a Viernes, 9:00 - 18:00
