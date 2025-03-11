@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background-color: #f9f9f9;
 }
 
 header {
@@ -15,11 +16,13 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: #333;
 }
 
 header p {
     margin: 0;
     font-size: 1.2rem;
+    color: #555;
 }
 
 nav ul {
@@ -55,36 +58,35 @@ nav a {
     font-size: 1.5rem;
 }
 
-.btn {
-    background: #ff6600;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.menu {
+.historia, .productos, .precios, .contacto {
     padding: 40px 20px;
     text-align: center;
 }
 
-.menu-grid {
+.productos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
-.menu-item img {
+.producto-item img {
     width: 100%;
     border-radius: 10px;
 }
 
-.about, .contact {
-    padding: 40px 20px;
-    text-align: center;
+.precios table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
 }
 
-.contact form {
+.precios th, .precios td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contacto form {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -92,13 +94,13 @@ nav a {
     margin: 0 auto;
 }
 
-.contact input, .contact textarea {
+.contacto input, .contacto textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.contact button {
+.contacto button {
     background: #ff6600;
     color: #fff;
     border: none;
