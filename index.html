@@ -3,56 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heladería y Pastelería Dulce Tentación</title>
+    <title>Arte-Sana Pastelería Heladería</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>Dulce Tentación</h1>
-            <p>Heladería y Pastelería Artesanal</p>
+            <h1>Gloria & Rositas</h1>
+            <p>Casaderiedades</p>
         </div>
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#menu">Menú</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#precios">Lista de Precios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="inicio" class="hero">
+    <section id="hero" class="hero">
         <div class="hero-content">
-            <h2>Bienvenidos a Dulce Tentación</h2>
-            <p>Los sabores más deliciosos en helados y pasteles hechos con amor.</p>
-            <a href="#menu" class="btn">Ver Menú</a>
+            <h2>Nuestros Productos</h2>
+            <p>En Gloria & Rositas mezclamos tradición y esencia con innovación. En nuestra razón de ser hay algo más que una heladería, somos una "Casa de Helados".</p>
         </div>
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Nuestro Menú</h2>
-        <div class="menu-grid">
-            <div class="menu-item">
-                <img src="helado1.jpg" alt="Helado de Vainilla">
-                <h3>Helado de Vainilla</h3>
-                <p>Clásico y cremoso helado de vainilla.</p>
+    <section id="historia" class="historia">
+        <h2>Historia</h2>
+        <p>La experiencia adquirida nos convierte en grandes artesanos del helado. Desde nuestros inicios, hemos buscado ofrecer los mejores sabores con ingredientes naturales y recetas tradicionales.</p>
+    </section>
+
+    <section id="productos" class="productos">
+        <h2>Productos</h2>
+        <div class="productos-grid">
+            <div class="producto-item">
+                <img src="helado1.jpg" alt="Helado Gloria">
+                <h3>Helado Gloria</h3>
+                <p>Un clásico que nunca pasa de moda.</p>
             </div>
-            <div class="menu-item">
-                <img src="pastel1.jpg" alt="Pastel de Chocolate">
-                <h3>Pastel de Chocolate</h3>
-                <p>Delicioso pastel con capas de chocolate.</p>
+            <div class="producto-item">
+                <img src="helado2.jpg" alt="Helado Rositas">
+                <h3>Helado Rositas</h3>
+                <p>Delicado y lleno de sabor.</p>
             </div>
-            <!-- Añade más items aquí -->
+            <!-- Añade más productos aquí -->
         </div>
     </section>
 
-    <section id="nosotros" class="about">
-        <h2>Sobre Nosotros</h2>
-        <p>Somos una heladería y pastelería artesanal con más de 10 años de experiencia. Utilizamos ingredientes naturales y recetas tradicionales para ofrecerte los mejores sabores.</p>
+    <section id="precios" class="precios">
+        <h2>Lista de Precios</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Helado Gloria</td>
+                    <td>€3.50</td>
+                </tr>
+                <tr>
+                    <td>Helado Rositas</td>
+                    <td>€4.00</td>
+                </tr>
+                <!-- Añade más filas aquí -->
+            </tbody>
+        </table>
     </section>
 
-    <section id="contacto" class="contact">
+    <section id="contacto" class="contacto">
         <h2>Contacto</h2>
         <form action="#" method="post">
             <input type="text" name="nombre" placeholder="Nombre" required>
@@ -63,7 +85,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Dulce Tentación. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Gloria & Rositas. Todos los derechos reservados.</p>
     </footer>
 
     <script src="scripts.js"></script>
